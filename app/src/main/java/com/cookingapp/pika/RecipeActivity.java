@@ -17,16 +17,5 @@ private Button mAddRecipeButton;
         Intent intent = getIntent();
         String location = intent.getStringExtra("foodName");
 
-//        mAddRecipeButton = (Button) findViewById(R.id.AddRecipeButton);
-//        mAddRecipeButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                RecipeActivity();
-//            }
-//        });
-//    }
-//    public void RecipeActivity(){
-//        Intent intent = new Intent(this, RecipeActivity.class);
-//        startActivity(intent);
-//    }
-}}
+    }
+}
