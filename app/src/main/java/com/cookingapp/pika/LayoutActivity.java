@@ -13,6 +13,7 @@ public class LayoutActivity extends AppCompatActivity {
     private Button mMoreButton;
     private Button mAddRecipeButton;
     private EditText mfoodName;
+    private Button mRecipeButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,7 +35,15 @@ public class LayoutActivity extends AppCompatActivity {
         mMoreButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LayoutActivity.this, "COMING SOON", Toast.LENGTH_SHORT).show();;
+                Toast.makeText(LayoutActivity.this, "COMING SOON", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        mRecipeButton = (Button) findViewById(R.id.MoreButton);
+        mRecipeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(LayoutActivity.this,"COMING SOON", Toast.LENGTH_LONG).show();
             }
         });
     }
