@@ -39,7 +39,7 @@ public class LayoutActivity extends AppCompatActivity {
             }
         });
 
-        mRecipeButton = (Button) findViewById(R.id.MoreButton);
+        mRecipeButton = (Button) findViewById(R.id.RecipeButton);
         mRecipeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

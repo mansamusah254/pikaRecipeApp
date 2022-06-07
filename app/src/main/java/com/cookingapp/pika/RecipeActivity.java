@@ -42,7 +42,7 @@ public class RecipeActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String foodName = intent.getStringExtra("foodName");
 
-        mTextView.setText("Here are recipes: " + foodName);
+        mTextView.setText("Here is your foodname: " + foodName);
 
     }
 }
