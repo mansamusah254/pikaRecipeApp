@@ -43,7 +43,7 @@ public class LayoutActivity extends AppCompatActivity {
         mRecipeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LayoutActivity.this,"COMING SOON", Toast.LENGTH_LONG).show();
+                Toast.makeText(LayoutActivity.this,"ALSO COMING SOON", Toast.LENGTH_LONG).show();
             }
         });
     }
